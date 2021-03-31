@@ -1,7 +1,8 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
+import './NavigationBar.css'
 
-function Navbar() {
+function NavigationBar() {
 
     return(
         <div>
@@ -17,4 +18,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default NavigationBar

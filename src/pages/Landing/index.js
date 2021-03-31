@@ -1,6 +1,6 @@
 import React from "react"
 import "./style.css"
-import Navvbar from "../../components/NavBar"
+import Navbar from "../../Components/NavBar/NavigationBar"
 
 function Landing() {
 
@@ -20,7 +20,7 @@ function Landing() {
         <div>
 
             {/* Simple Navbar that will most likely be changed later on but for now just to give us an idea of what will be there. */}
-            <Navvbar />
+            <Navbar />
 
             <button className="btnShp" onClick={handleLogin}>Login</button>
             <button className="btnShp" onClick={handleRegister}>Register</button>
