@@ -1,0 +1,9 @@
+.ModalComp__register{
+    display: flex;
+    flex-direction: column;
+  }
+  .ModalComp__headerImage{
+    object-fit: contain;
+    height:70px;
+    background-color: white;
+  }
