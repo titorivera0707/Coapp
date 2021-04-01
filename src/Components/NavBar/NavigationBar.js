@@ -1,7 +1,7 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 import './NavigationBar.css'
-import Modall from "../Modal/Modal"
+import ModalComp from "../Modal/ModalComp"
 
 function NavigationBar() {
 
@@ -38,7 +38,7 @@ function NavigationBar() {
         </div>
             </Navbar>
 
-            <Modall
+            <ModalComp
         show={modalShow}
         onHide={() => setModalShow(false)}
       />

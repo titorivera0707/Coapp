@@ -2,7 +2,7 @@ import React from "react"
 import './Modal.css'
 import { Modal, Button } from "react-bootstrap"
 
-function Modall(props) {
+function ModalComp(props) {
 
     return(
     <Modal
@@ -31,4 +31,4 @@ function Modall(props) {
     )
 }
 
-export default Modall
+export default ModalComp
