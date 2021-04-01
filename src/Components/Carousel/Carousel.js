@@ -15,8 +15,8 @@ function CarouselPictures() {
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>Find your perfect companion!</h3>
+                    <p>Big or small, your companion will love you more than it loves itself.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -27,8 +27,8 @@ function CarouselPictures() {
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Find a partner in crime for your current companion!</h3>
+                    <p>Dogs will have a much happier life if shared with another dog they can spend most of their time with.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,8 +39,8 @@ function CarouselPictures() {
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Make lots of time for your companion!</h3>
+                    <p>Your new companion will always will be loyal to you and it should be rewarded as such.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
