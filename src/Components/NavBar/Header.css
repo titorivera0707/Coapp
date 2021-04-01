@@ -1,16 +1,11 @@
-.ModalComp__header > img{
-    object-fit: contain;
-    height:70px;
-    background-color: white;
-    object-fit: contain;
-  
-  }
+
+
   .ModalComp__header{
     position: sticky;
-    top: 0;
     z-index: 1;
-    padding: 20px;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
+  }
+
+  .ModalComp{
+    background-color: white;
   }
