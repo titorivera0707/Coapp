@@ -1,10 +1,11 @@
 import React from "react"
 import "./style.css"
+import CarouselPictures from "../../components/Carousel/Carousel"
 
 function Landing() {
 
     return(
-        <h1>Is this working.</h1>
+        <CarouselPictures />
     )
 }
 
