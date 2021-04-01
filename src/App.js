@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./pages/Landing"
-import NavBar from "./Components/NavBar/NavigationBar"
+import Header from "./Components/NavBar/Header"
 
 function App() {
   return (
     <Router>
-    <NavBar />
+    <Header />
       <Switch>
         <Route exact path="/" component={Landing} />
       </Switch>

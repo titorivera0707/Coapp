@@ -1,9 +1,9 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
-import './NavigationBar.css'
+import './Header.css'
 import ModalComp from "../Modal/ModalComp"
 
-function NavigationBar() {
+function Header() {
 
     const [modalShow, setModalShow] = React.useState(false);
 
@@ -24,17 +24,16 @@ function NavigationBar() {
     return(
         <div>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="#home">Pup Match</Navbar.Brand>
+                <Navbar.Brand href="/">Pup Match</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#matchme">MatchMe</Nav.Link>
-                    <Nav.Link href="#explore">Explore</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/matchMe">Match Me</Nav.Link>
+                    <Nav.Link href="/explore">Explore</Nav.Link>
                 </Nav>
                 <div>
 
             <button className="btnShp" onClick={handleLogin}>Login</button>
             <button className="btnShp" onClick={handleRegister}>Register</button>
-
         </div>
             </Navbar>
 
@@ -46,4 +45,4 @@ function NavigationBar() {
     )
 }
 
-export default NavigationBar
+export default Header
