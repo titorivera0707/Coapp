@@ -10,8 +10,7 @@ function Header() {
 
     return(
         <div className="ModalComp__header">
-      
-         <img src= {logo} alt="logo"/>
+         <img src= {logo} alt="logo" href="/"/>
         <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/matchMe">Match Me</Nav.Link>

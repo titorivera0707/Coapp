@@ -19,11 +19,11 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) =>({
   paper: {
     position: 'absolute',
-    width: 400,
+    width: 600,
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
-    padding: theme.spacing(2, 4, 3),
+    padding: theme.spacing(6, 4, 8),
   },
 }));
 
@@ -33,6 +33,8 @@ function ModalComp() {
   const [modalStyle] = useState(getModalStyle)
   const [open, setOpen] = useState(false);
   const [openSignIn, setOpenSignIn] = useState(false);
+  const [firstName, setfirstName] = useState('');
+  const [lastName, setLastName] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
@@ -87,22 +89,36 @@ function ModalComp() {
        <center>
       <img className="ModalComp__headerImage" src={logo} alt="ModalComp logo" />
       </center>
+      <div className="ModalComp__name">
       <Input
-      placeholder="username"
+      placeholder="First Name"
+      id="firstName"
+      type="text"
+      value={firstName}
+      onChange={(e) => setfirstName(e.target.value)} />
+       <Input
+      placeholder="Last Name"
+      id="lastName"
+      type="text"
+      value={lastName}
+      onChange={(e) => setLastName(e.target.value)} />
+      </div>
+      <Input
+      placeholder="User Name"
       type="text"
       value={username}
       onChange={(e) => setUsername(e.target.value)} />
       <Input 
-      placeholder="email"
-      type="text"
+      placeholder="Email"
+      type="email"
       value={email}
       onChange={(e) => setEmail(e.target.value)} />
       <Input 
-      placeholder="password"
+      placeholder="Password"
       type="password"
       value={password}
       onChange={(e) => setPassword(e.target.value)} />
-      <Button type="submit" onClick={signUp}>Sign up</Button>
+      <Button type="submit" onClick={signUp}>Register</Button>
       </form>
        
     </div>
