@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./pages/Landing/Landing"
-import Header from "./Components/NavBar/Header"
+import Header from "./components/NavBar/Header"
 
 function App() {
   return (
