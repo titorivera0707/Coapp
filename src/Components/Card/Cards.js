@@ -1,11 +1,13 @@
 import React from 'react'
+import "./Cards.css"
+import Bm from "../../Assets/MB.jpeg"
 import { Card } from 'react-bootstrap'
 
 function Cards() {
     return (
         
         <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img className="CardPic" variant="top" src={Bm} />
             <Card.Body>
                 <Card.Title>Card title</Card.Title>
                 <Card.Text>
