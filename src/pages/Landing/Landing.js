@@ -1,6 +1,6 @@
 import React from "react"
 import "./Landing.css"
-import CarouselPictures from "../../components/Carousel/Carousel"
+import CarouselPictures from "../../Components/Carousel/Carousel"
 
 function Landing() {
 

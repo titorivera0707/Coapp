@@ -18,6 +18,7 @@ function Header() {
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/matchMe">Match Me</Nav.Link>
         <Nav.Link href="/explore">Explore</Nav.Link>
+        <Nav.Link href="/profile">Profile</Nav.Link>
         </Nav>
         <div className="ModalComp">
         <ModalComp show={modalShow} onHide={() => setModalShow(false)}/>

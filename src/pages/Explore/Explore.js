@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Explore.css"
 import { CardColumns } from "react-bootstrap"
-import Cards from "../../components/Card/Cards"
+import Cards from "../../Components/Card/Cards"
 
 function Explore() {
     return (

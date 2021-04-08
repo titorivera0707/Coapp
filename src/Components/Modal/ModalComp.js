@@ -75,8 +75,6 @@ function ModalComp() {
       setOpenSignIn(false);
     }
 
-
-
     return(
       <div className="ModalComp">
        <Modal
@@ -86,7 +84,7 @@ function ModalComp() {
         <div style={modalStyle} className={classes.paper}>
         <form className="ModalComp__register">
         
-       <center>
+      <center>
       <img className="ModalComp__headerImage" src={logo} alt="ModalComp logo" />
       </center>
       <div className="ModalComp__name">
@@ -120,7 +118,7 @@ function ModalComp() {
       onChange={(e) => setPassword(e.target.value)} />
       <Button type="submit" onClick={signUp}>Register</Button>
       </form>
-       
+    
     </div>
       </Modal>
 
